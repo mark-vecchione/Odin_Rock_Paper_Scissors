@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
-    <link rel="stylesheet" href="style.css">
-    <script type = "text/javascript" src="rps.js"></script>
+  <meta charset="UTF-8" />
+  <title>Rock, Paper, Scissors</title>
+  <!-- Link to external style.css -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <h1>Rock, Paper, Scissors</h1>
+  
+  <div id="game">
+    <!-- Buttons for user selection -->
+    <div id="buttons">
+      <button id="rockBtn">Rock</button>
+      <button id="paperBtn">Paper</button>
+      <button id="scissorsBtn">Scissors</button>
+    </div>
+
+    <!-- Score display -->
+    <div id="score">Human: 0 | Computer: 0</div>
+
+    <!-- Results display -->
+    <div id="results">Make your choice to start!</div>
+  </div>
+
+  <!-- Reference your separate JavaScript file -->
+  <script src="rps.js"></script>
 </body>
 </html>
